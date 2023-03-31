@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<head>
+  <title>MyJavaScript</title>
+
+  <link rel="stylesheet" href="Tugas4.css">
+  <script src="Tugas4.js"></script>
+</head>
+
+<body>
+  <div class="title">
+    <h1>TUGAS 4 - JAVASCRIPT</h1>
+  </div>
+  <div class="identity">
+    <h2>Identitas</h2>
+    <div class="photo">
+      <img src="myphoto.jpg" alt="Me" height="150" width="110">
+      <div class="caption">
+        <p>Grace Chintya Kristie Puspita <br>
+          215314064 <br>
+          Pemrograman Berbasis Platform B</h2></p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Membaca input user yaitu nama dan jumlah pilihan -->
+  <div class="input">
+    <p>Isilah form di bawah ini!</p>
+    <div class="name">
+      <label for="Nama">Nama: </label>
+      <input type="text" id="nama" value="" placeholder="Masukkan Nama Anda">
+    </div>
+    <br>
+
+    <div class="jumlahPilihan">
+      <label for="Jumlah">Jumlah Pilihan:</label>
+      <input type="number" id="jumlah" placeholder="Masukkan Jumlah Pilihan">
+    </div>
+    <br>
+
+    <!-- Memanggil perintah dan id dari javascript -->
+    <button onclick="showField()">OK</button>
+    <div id="pilihan"></div>
+    <div id="button"></div>
+    <form>
+      <div id="list"></div>
+      <div id="send"></div>
+    </form>
+    <p id="result"></p>
+
+  </div>
+
+</body>

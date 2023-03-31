@@ -1,0 +1,28 @@
+body {
+    background-image: url(background2.jpg);
+    font-family: Helvetica;
+    font-size: 120%;
+    scroll-behavior: smooth;
+}
+
+.title { 
+    text-align: center;
+    font-size: 125%;
+    background-color: brown;
+}
+
+.identity {
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.caption{
+    font-weight: bold;
+}
+
+.input {
+    margin: 5%;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: brown;
+}
